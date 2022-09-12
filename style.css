@@ -1,0 +1,34 @@
+:root{
+    --blue: #29339b;
+    --red: #ff3a20;
+    --opal: #b6d6cc;
+    --cream: #f1fec6;
+    --air-blue: #74a4bc;
+}
+
+.gameboard{
+    background-color: var(--opal);
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    font-family: 'Rubik Dirt', cursive;
+    color: var(--red);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+
+.blue{
+    color: var(--blue);
+}
+
+
+.gameboard-square{
+    border: 4px solid var(--cream);
+    text-align: center;
+    font-size: 10rem;
+
+}
+
