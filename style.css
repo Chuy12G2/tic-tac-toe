@@ -85,20 +85,22 @@ body{
 }
 
 .window-game-over{
-    width: 600px;
-    height: 600px;
-    border: 3px solid var(--cream);
+    width: 630px;
+    height: 620px;
+    border: 5px solid var(--cream);
+    border-radius: 20px;
     background-color: var(--air-blue);
 
     position: absolute;
-    top:327px;
-    left: calc(50% - 300px);
+    top:325px;
+    left: calc(50% - 310px);
+
 }
 
 .window-game-over p{
     color: var(--cream);
-    font-size: 5rem;
-    padding: 1rem;
+    font-size: 3rem;
+    padding: .3rem;
     margin: 3rem 0;
     text-align: center;
 }
